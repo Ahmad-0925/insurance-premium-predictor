@@ -1,7 +1,6 @@
 import streamlit as st
 import requests
-
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://insurance-premium-predictor-mkkj.onrender.com"
 
 st.set_page_config(page_title="Insurance Premium Predictor", page_icon="🏥")
 st.title("🏥 Insurance Premium Predictor")
