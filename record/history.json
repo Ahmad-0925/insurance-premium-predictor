@@ -1,0 +1,90 @@
+[
+    {
+        "input": {
+            "age": 1,
+            "weight": 1.0,
+            "height": 1.0,
+            "income_lpa": 1.0,
+            "smoker": true,
+            "city": "String",
+            "occupation": "retired",
+            "bmi": 1.0,
+            "lifestyle_risk": "medium",
+            "age_group": "young",
+            "city_tier": 3
+        },
+        "prediction": "High"
+    },
+    {
+        "input": {
+            "age": 1,
+            "weight": 1.0,
+            "height": 1.0,
+            "income_lpa": 1.0,
+            "smoker": true,
+            "city": "String",
+            "occupation": "retired",
+            "bmi": 1.0,
+            "lifestyle_risk": "medium",
+            "age_group": "young",
+            "city_tier": 3
+        },
+        "prediction": "High"
+    },
+    {
+        "input": {
+            "age": 1,
+            "weight": 1.0,
+            "height": 1.0,
+            "income_lpa": 12222.0,
+            "smoker": true,
+            "city": "String",
+            "occupation": "retired",
+            "bmi": 1.0,
+            "lifestyle_risk": "medium",
+            "age_group": "young",
+            "city_tier": 3
+        },
+        "prediction": "Medium"
+    },
+    {
+        "input": {
+            "age": 1,
+            "weight": 1.0,
+            "height": 1.0,
+            "income_lpa": 1.0,
+            "smoker": true,
+            "city": "String",
+            "occupation": "retired",
+            "bmi": 1.0,
+            "lifestyle_risk": "medium",
+            "age_group": "young",
+            "city_tier": 3
+        },
+        "prediction": "High"
+    },
+    {
+        "input": {
+            "age": 1,
+            "weight": 1.0,
+            "height": 1.0,
+            "income_lpa": 1.0,
+            "smoker": true,
+            "city": "String",
+            "occupation": "retired",
+            "bmi": 1.0,
+            "lifestyle_risk": "medium",
+            "age_group": "young",
+            "city_tier": 3
+        },
+        "prediction": {
+            "predicted_category": "High",
+            "confidence": 0.91,
+            "class_probabilities": {
+                "High": 0.91,
+                "Low": 0.07,
+                "Medium": 0.02
+            }
+        }
+    }
+]
