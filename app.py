@@ -21,7 +21,6 @@ def home():
     return {'message':'Insurance Premium Predictor'}
  
 
-#machine readable# So thats why for cloud deployment
 @app.get('/health')
 def health_check(): 
     return{
