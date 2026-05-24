@@ -30,10 +30,9 @@ class UserInput(BaseModel):
     smoker: Annotated[bool, Field(...)]
     city: Annotated[str, Field(...)]
     occupation: Annotated[
-        Literal[
-            'retired', 'freelancer', 'student', 'government_job',
-            'business_owner', 'unemployed', 'private_job'
-        ],
+      Literal[
+    'business', 'employee', 'freelancer', 'retired', 'student'
+    ],
         Field(...)
     ]
 

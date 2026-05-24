@@ -86,5 +86,149 @@
                 "Medium": 0.02
             }
         }
+    },
+    {
+        "input": {
+            "age": 30,
+            "weight": 70.0,
+            "height": 1.7,
+            "income_lpa": 8.0,
+            "smoker": false,
+            "city": "Mumbai",
+            "occupation": "freelancer",
+            "bmi": 24.221453287197235,
+            "lifestyle_risk": "low",
+            "age_group": "adult",
+            "city_tier": 1
+        },
+        "prediction": {
+            "predicted_category": "Low",
+            "confidence": 1.0,
+            "class_probabilities": {
+                "High": 0.0,
+                "Low": 1.0,
+                "Medium": 0.0
+            }
+        }
+    },
+    {
+        "input": {
+            "age": 30,
+            "weight": 70.0,
+            "height": 1.7,
+            "income_lpa": 8.0,
+            "smoker": false,
+            "city": "Mumbai",
+            "occupation": "student",
+            "bmi": 24.221453287197235,
+            "lifestyle_risk": "low",
+            "age_group": "adult",
+            "city_tier": 1
+        },
+        "prediction": {
+            "predicted_category": "Low",
+            "confidence": 1.0,
+            "class_probabilities": {
+                "High": 0.0,
+                "Low": 1.0,
+                "Medium": 0.0
+            }
+        }
+    },
+    {
+        "input": {
+            "age": 30,
+            "weight": 70.0,
+            "height": 1.7,
+            "income_lpa": 8.0,
+            "smoker": false,
+            "city": "Mumbai",
+            "occupation": "retired",
+            "bmi": 24.221453287197235,
+            "lifestyle_risk": "low",
+            "age_group": "adult",
+            "city_tier": 1
+        },
+        "prediction": {
+            "predicted_category": "Low",
+            "confidence": 1.0,
+            "class_probabilities": {
+                "High": 0.0,
+                "Low": 1.0,
+                "Medium": 0.0
+            }
+        }
+    },
+    {
+        "input": {
+            "age": 30,
+            "weight": 70.0,
+            "height": 1.7,
+            "income_lpa": 8.0,
+            "smoker": false,
+            "city": "Mumbai",
+            "occupation": "student",
+            "bmi": 24.221453287197235,
+            "lifestyle_risk": "low",
+            "age_group": "adult",
+            "city_tier": 1
+        },
+        "prediction": {
+            "predicted_category": "Low",
+            "confidence": 1.0,
+            "class_probabilities": {
+                "High": 0.0,
+                "Low": 1.0,
+                "Medium": 0.0
+            }
+        }
+    },
+    {
+        "input": {
+            "age": 30,
+            "weight": 70.0,
+            "height": 1.7,
+            "income_lpa": 8.0,
+            "smoker": false,
+            "city": "Mumbai",
+            "occupation": "retired",
+            "bmi": 24.221453287197235,
+            "lifestyle_risk": "low",
+            "age_group": "adult",
+            "city_tier": 1
+        },
+        "prediction": {
+            "predicted_category": "Low",
+            "confidence": 1.0,
+            "class_probabilities": {
+                "High": 0.0,
+                "Low": 1.0,
+                "Medium": 0.0
+            }
+        }
+    },
+    {
+        "input": {
+            "age": 30,
+            "weight": 70.0,
+            "height": 1.7,
+            "income_lpa": 8.0,
+            "smoker": false,
+            "city": "Mumbai",
+            "occupation": "retired",
+            "bmi": 24.221453287197235,
+            "lifestyle_risk": "low",
+            "age_group": "adult",
+            "city_tier": 1
+        },
+        "prediction": {
+            "predicted_category": "Low",
+            "confidence": 1.0,
+            "class_probabilities": {
+                "High": 0.0,
+                "Low": 1.0,
+                "Medium": 0.0
+            }
+        }
     }
 ]

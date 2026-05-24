@@ -8,6 +8,9 @@ from fastapi.responses import JSONResponse
 from record.history_data import HISTORY_FILE,history
 from schema.prediction_response import PredictionResponse
 from schema.history_response import HistoryRecord
+
+
+
 app = FastAPI()
 
 
@@ -26,6 +29,13 @@ def health_check():
         'version':MODEL_VERSION,
         'model_loaded':model is not None
     }
+
+@app.post("/signup")
+def signup(data: LoginInput):
+    if data.username in users:
+        raise HTTPException(status_code=400, detail="Username already exists")
+    users[data.username] = data.password
+    return {"message": "Signup successful"}
 
 @app.post("/login")
 def login(data: LoginInput):
